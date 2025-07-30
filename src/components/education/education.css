@@ -1,0 +1,62 @@
+#education{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.edutitle{
+    font-size: 3rem;
+    font-weight: 600 ;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.synergeticbyte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(40, 40, 40);
+    width: 100vw;
+    max-width: 80%;
+   margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+.university{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(40, 40, 40);
+    width: 100vw;
+    max-width: 80%;
+   margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+.crowncrystal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(40, 40, 40);
+    width: 100vw;
+   max-width: 80%;
+   margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+.tecvator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(40, 40, 40);
+    width: 100vw;
+    max-width: 80%;
+   margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
