@@ -2,6 +2,7 @@ import React from 'react'
 import './works.css'
 import ticket from '../../assets/ticketspage.png'
 import loginpage from '../../assets/mernloginpage.png'
+import checkout from '../../assets/checkoutpage.png'
 
 const works = () => {
   return (
@@ -11,7 +12,7 @@ const works = () => {
    <div className='worksimgs'>
     <img src={ticket} alt='portimg' className='worksimg'/>
      <img src={loginpage} alt='portimg' className='worksimg'/>
-      <img src={ticket} alt='portimg' className='worksimg'/>
+      <img src={checkout} alt='portimg' className='worksimg'/>
        <img src={ticket} alt='portimg' className='worksimg'/>
    </div>
     </section>
