@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css';
 import { Link } from 'react-scroll';
-import bg from '../../assets/IMG_20161016_121130.jpg'
+import bg from '../../assets/FMRGB.png'
 import contact from '../../assets/envelope.png'
 
 

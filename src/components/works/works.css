@@ -23,13 +23,18 @@
   align-items: center;
   justify-content: center;
   width: 100vh;
+  flex-direction: row;
   flex-wrap: wrap;
-  max-width: 65rem;
+  
+  max-width: 60rem;
 }
 .worksimg{
    object-fit: cover;
    height: 28rem;
    margin: 0.5rem; 
+   display: flex;
+   
+   flex-wrap: wrap;
 }
 @media screen and (max-width:585px){
     .worksimg{

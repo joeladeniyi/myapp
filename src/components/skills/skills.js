@@ -1,5 +1,17 @@
 import React from 'react'
 import './skill.css'
+import js from '../../assets/js.png'
+import html from'../../assets/HTML5-Icon.png'
+import css from '../../assets/CSS-ICON.jpeg'
+import boot from '../../assets/bootstrap-social.png'
+import react from '../../assets/react-logo.png'
+import next from '../../assets/next-js-logo.png'
+import node from '../../assets/Nodejs.png'
+import express from '../../assets/express-js.png'
+import mongodb from '../../assets/MongoDB.png'
+
+
+
 
 const skills = () => {
   return (
@@ -9,17 +21,31 @@ const skills = () => {
       <div className='skillbars'>
         
         <div className='skillbar'>
-         <img src='' alt='' className='skillbarimg'/>
+      
          <div className='skillbartext'>
-          <span>Frontend Development</span>
-          <span> HTML, CSS JAVASCRIPT, BOOTSTRAP, REACT, NEXTJS </span>
+          <h1>Frontend Development</h1>
+        
+          <div className='backendimg'>   <img src={html}alt='' className='skillbarimg'/>
+           <img src={css} alt='' className='skillbarimg'/>
+            <img src={js} alt='' className='skillbarimg'/>
+             <img src={boot} alt='' className='skillbarimg'/>
+             <img src={react} alt='' className='skillbarimg'/>
+             <img src={next} alt='' className='skillbarimg'/>
+               </div>
          </div>
+         
         </div>
         <div className='skillbar'>
-         <img src='' alt='' className='skillbarimg'/>
+         
          <div className='skillbartext'>
-          <h2>Backend Development</h2>
-          <span> NODEJS, EXPRESSJS MONGODB  </span>
+          <h1>Backend Development</h1>
+          
+        <div className='backendimg'>   <img src={node} alt='' className='skillbarimg'/>
+           <img src={express} alt='' className='skillbarimg'/>
+            <img src={mongodb} alt='' className='skillbarimg'/>
+            
+               </div>
+          
          </div>
         </div>
         
