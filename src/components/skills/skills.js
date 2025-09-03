@@ -25,7 +25,7 @@ const skills = () => {
          <div className='skillbartext'>
           <h1>Frontend Development</h1>
         
-          <div className='backendimg'>   <img src={html}alt='' className='skillbarimg'/>
+          <div className='frontendimg'>   <img src={html}alt='' className='skillbarimg'/>
            <img src={css} alt='' className='skillbarimg'/>
             <img src={js} alt='' className='skillbarimg'/>
              <img src={boot} alt='' className='skillbarimg'/>
