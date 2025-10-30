@@ -39,8 +39,8 @@ const Contact = () => {
   return (
     <section id='contactpage'>
       <div id='contact'>
-        <h1 className='contactpagetitle'> Contact Me</h1>
-        <span className='contactdesc'>Please fill out the form below to discuss any work opportunities</span>
+        <h1 className='contactpagetitle font-mono'> Contact Me</h1>
+        <span className='contactdesc font-mono'>Please fill out the form below to discuss any work opportunities</span>
        <form className='contactform' ref={form} onSubmit={sendEmail}>
          <input type='text' className='name' placeholder='Your Name ' name='name'
           value={name} onChange={((e)=> setName(e.target.value))} />
@@ -48,11 +48,11 @@ const Contact = () => {
          value={email} onChange={((e)=> setEmail(e.target.value))}/>
          <textarea name='message' className='msg' rows='5' placeholder='Your message'
           value={message} onChange={((e)=> setMessage(e.target.value))}></textarea>
-         {errmsg && <p id='formerror'>Kindly complete all fields</p>}
-         <button className='submitbtn' type='submit' value='send' onSubmit={sendEmail}>Submit</button>
+         {errmsg && <p id='formerror font-mono'>Kindly complete all fields</p>}
+         <button className='submitbtn font-mono' type='submit' value='send' onSubmit={sendEmail}>Submit</button>
        <div className='links'>
         <img src={facebook} alt='' className='link'/>
-        <img src={linkedin} alt='' className='link'/>
+       <a href='https://www.linkedin.com/in/adeniyi-oluwafemi-bb7060224'> <img src={linkedin} alt='' className='link'/> </a> 
         <img src={X} alt='' className='link'/>
        </div>
        </form>

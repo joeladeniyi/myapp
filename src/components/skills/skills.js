@@ -16,21 +16,22 @@ import mongodb from '../../assets/MongoDB.png'
 const skills = () => {
   return (
     <section id='skills'>
-      <span className='skilltitle'> What i do</span>
-      <span className='skilldsc'> I am a skill and passionate web developer with experience in creating visually appealing and user friendly websites. I am proficient in HTLM, CSS, Javascipt react and nextjs. I am familiar with backend technology such as nodejs, express and mongodb </span>
+      <span className='skilltitle font-mono'> What i do</span>
+      <span className='skilldsc font-mono'> I am a skill and passionate web developer with experience in creating visually appealing and user friendly websites. I am proficient in HTLM, CSS, Javascipt react and nextjs. I am familiar with backend technology such as nodejs, express and mongodb </span>
       <div className='skillbars'>
         
         <div className='skillbar'>
       
          <div className='skillbartext'>
-          <h1>Frontend Development</h1>
+          <h1 className='font-mono'>Frontend Development</h1>
         
-          <div className='frontendimg'>   <img src={html}alt='' className='skillbarimg'/>
-           <img src={css} alt='' className='skillbarimg'/>
-            <img src={js} alt='' className='skillbarimg'/>
-             <img src={boot} alt='' className='skillbarimg'/>
-             <img src={react} alt='' className='skillbarimg'/>
-             <img src={next} alt='' className='skillbarimg'/>
+          <div className=' grid grid-cols-3'>  
+             <img src={html}alt='' className='skillbarimg'/>
+           <img src={css} alt='' className=''/>
+            <img src={js} alt='' className=''/>
+             <img src={boot} alt='' className=''/>
+             <img src={react} alt='' className=''/>
+             <img src={next} alt='' className=''/>
                </div>
          </div>
          
@@ -38,9 +39,10 @@ const skills = () => {
         <div className='skillbar'>
          
          <div className='skillbartext'>
-          <h1>Backend Development</h1>
+          <h1 className='font-mono'>Backend Development</h1>
           
-        <div className='backendimg'>   <img src={node} alt='' className='skillbarimg'/>
+        <div className='backendimg'>   
+          <img src={node} alt='' className='skillbarimg'/>
            <img src={express} alt='' className='skillbarimg'/>
             <img src={mongodb} alt='' className='skillbarimg'/>
             

@@ -4,6 +4,7 @@ import {Link} from 'react-scroll'
 import home from '../../assets/home.png'
 import contact from '../../assets/envelope.png'
 import menu from '../../assets/menu-burger (1).png'
+
 const Navbar = () => {
   const [showmenu, setShowmenu] = useState(false)
   return (
@@ -13,7 +14,8 @@ const Navbar = () => {
            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopmenulistitem' >Home</Link>
       
            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopmenulistitem' >About</Link>
-           <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopmenulistitem' >Portfolio</Link>
+            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listitem' onClick={()=>setShowmenu(false)}>Portfolio</Link>
+            <a href='https://github.com/joeladeniyi' className='desktopmenulistitem'>Github</a>
          </div>
          <button className='desktopmenubtn' onClick={() => {
           document.getElementById('contact').scrollIntoView({behaviour :'smooth'});
